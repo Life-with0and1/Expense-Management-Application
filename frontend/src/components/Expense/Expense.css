@@ -1,0 +1,36 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin-top: -100px;
+}
+
+.list {
+  max-width: 500px;
+}
+
+.item {
+  display: flex;
+  gap: 55px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.item .text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item button {
+  font-weight: bolder;
+  font-size: 10px;
+  color: white;
+  padding: 5px 7px;
+  background: #ff0000;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+}
