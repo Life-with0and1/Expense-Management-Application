@@ -7,7 +7,7 @@ import "./Home.css";
 import Balance from "../Balance/Balance";
 
 function Home() {
-  const url = "http://localhost:3000/api";
+  const url = "https://expense-management-api-u0p0.onrender.com/api";
   const [name, setName] = useState("");
   const navigate = useNavigate();
   const [data, setData] = useState([]);
